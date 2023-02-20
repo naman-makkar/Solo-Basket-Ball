@@ -27,16 +27,16 @@ let btn2 = document.getElementById("btn1Right")
 let scoreR = 0
 
 function add1right() {
-	score +=1
-	scoreBoardRight.textContent = score
+	scoreR +=1
+	scoreBoardRight.textContent = scoreR
 }
 
 function add2right() {
-	score +=2
-	scoreBoardRight.textContent = score
+	scoreR +=2
+	scoreBoardRight.textContent = scoreR
 }
 
 function add3right() {
-	score +=3
-	scoreBoardRight.textContent = score
+	scoreR +=3
+	scoreBoardRight.textContent = scoreR
 }
