@@ -4,6 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("basketball.gif");
+    background-size: cover;
 }
 
 .container {
@@ -20,6 +22,42 @@ h3 {
     font-size: 40px;
     color: #EEEEEE;
 }
+
+#startcommon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#1B244A;
+    font-weight: 900;
+    margin-right: 10px;
+    padding: 23px;
+}
+
+#resetcommon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#1B244A;
+    font-weight: 900;
+    padding: 23px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #scoreleft {
 background: #080001;
