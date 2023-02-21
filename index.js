@@ -114,12 +114,38 @@ function add3right() {
 	scoreShadow()
 }
 
+
+
+
+// foul
+let foulscoreLeft = document.getElementById("foulleft")
+let foulCountLeft = 0
+
+function minus1left() {
+	foulCountLeft +=1
+	foulscoreLeft.textContent = foulCountLeft
+}
+
+// foul right
+let foulscoreRight = document.getElementById("foulright")
+let foulCountRight = 0
+
+function minus1right() {
+	foulCountRight +=1
+	foulscoreRight.textContent = foulCountRight
+}
+
 // Reset
 let resetButton = document.getElementById("reset common")
 
 function reset() {
 	scoreR=0
 	score=0
+	foulCountLeft=0
+	foulCountRight=0
 	scoreBoardRight.textContent=scoreR
 	scoreBoard.textContent=score
+	foulscoreRight.textContent = foulCountRight
+	foulscoreLeft.textContent = foulCountLeft
+	
 }

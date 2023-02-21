@@ -12,11 +12,40 @@ body {
     display: flex;
     background: #1B244A;
     justify-content: space-around;
-    width: 575px;
-    height: 385px;
+    width: 850px;
+    height: 400px;
     /* align-items: center; */
 
 }
+
+.h3foul {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#foulleft {
+    background: #080001;
+    width: 80px;
+    margin: 20px;
+    height: 80px;
+    font-size: 60px;
+    text-align: center;
+    color: #F94F6D;
+    border-radius: 5px;
+    }
+
+#foulright {
+        background: #080001;
+        width: 80px;
+        margin: 20px;
+        height: 80px;
+        font-size: 60px;
+        text-align: center;
+        color: #F94F6D;
+        border-radius: 5px;
+        }
 
 h3 {
     font-size: 40px;
@@ -66,7 +95,7 @@ margin: 20px;
 height: 120px;
 font-size: 90px;
 text-align: center;
-color: #F94F6D;
+color: white;
 border-radius: 5px;
 }
 
@@ -76,7 +105,7 @@ border-radius: 5px;
     height: 120px;
     font-size: 90px;
     text-align: center;
-    color: #F94F6D;
+    color: white;
     border-radius: 5px;
     margin: 20px;
 }
