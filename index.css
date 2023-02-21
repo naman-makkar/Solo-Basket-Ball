@@ -27,7 +27,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
+    /* width: px; */
     height: 45px;
     border: 2px solid #9AABD8;
     border-radius: 5px;
@@ -42,7 +42,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 45px;
+    /* width: px; */
     height: 45px;
     border: 2px solid #9AABD8;
     border-radius: 5px;
